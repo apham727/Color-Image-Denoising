@@ -6,10 +6,9 @@ from matplotlib import pyplot as plt
 import math
 import statistics
 import time
-import matlab.engine
 
 # Image path and name processing
-image_name = "noisychicago.jpg"
+image_name = input("Enter noisy image filename: ")
 image_path = "images/noisy/" + image_name
 short_image_name = image_path.split("/")[-1].split(".")[0]
 
